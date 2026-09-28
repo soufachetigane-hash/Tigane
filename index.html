@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tigane Soufaché – Portfolio BTS SIO</title>
+<meta name="description" content="Portfolio de Tigane Soufaché, étudiant en 2e année de BTS SIO.">
+<style>
+:root{--bg:#f6f7fb;--card:#fff;--ink:#16213a;--muted:#5b6478;--accent:#2f5fd0;--line:#dfe3ee}
+@media (prefers-color-scheme:dark){:root{--bg:#0f1524;--card:#18213a;--ink:#eef1f8;--muted:#a3adc4;--accent:#7ea2ff;--line:#2a3555}}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.65}
+a{color:var(--accent)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+header{padding:64px 20px 40px;max-width:820px;margin:0 auto}
+h1{font-size:clamp(2.2rem,7vw,3.4rem);line-height:1.1;margin:0 0 12px}
+.sub{font-size:1.15rem;color:var(--muted);margin:0}
+nav{max-width:820px;margin:0 auto;padding:0 20px 8px;display:flex;gap:18px;flex-wrap:wrap}
+nav a{text-decoration:none;font-weight:600}
+nav a:hover{text-decoration:underline}
+main{max-width:820px;margin:0 auto;padding:0 20px 60px}
+section{margin-top:44px}
+h2{font-size:1.6rem;margin:0 0 16px;padding-bottom:8px;border-bottom:2px solid var(--line)}
+h3{font-size:1.1rem;margin:0 0 6px}
+.box{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:20px}
+dl{margin:0;display:grid;grid-template-columns:max-content 1fr;gap:8px 20px}
+dt{font-weight:700}
+dd{margin:0}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.grid .box p{margin:0;color:var(--muted)}
+.tags{display:flex;flex-wrap:wrap;gap:8px;padding:0;margin:0;list-style:none}
+.tags li{background:var(--card);border:1px solid var(--line);border-radius:999px;padding:4px 14px;font-size:.95rem}
+footer{text-align:center;color:var(--muted);padding:24px 20px 40px;font-size:.9rem}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Tigane Soufaché</h1>
+  <p class="sub">Étudiant en 2<sup>e</sup> année de BTS SIO, passionné d'informatique.</p>
+</header>
+
+<nav aria-label="Navigation">
+  <a href="#apropos">À propos</a>
+  <a href="#stage">Stage de 1<sup>re</sup> année</a>
+  <a href="#competences">Compétences</a>
+</nav>
+
+<main>
+
+  <section id="apropos">
+    <h2>À propos</h2>
+    <div class="box">
+      <dl>
+        <dt>Nom</dt><dd>Tigane Soufaché</dd>
+        <dt>Né le</dt><dd>15/11/2007</dd>
+        <dt>Ville</dt><dd>Le Plessis-Robinson</dd>
+        <dt>Formation</dt><dd>BTS SIO (Services Informatiques aux Organisations), 2<sup>e</sup> année – Lycée Parc de Vilgénis</dd>
+      </dl>
+      <p>Je suis passionné par l'informatique en général : réseaux, systèmes, sites web… J'aime apprendre en pratiquant et en réalisant des projets concrets.</p>
+    </div>
+  </section>
+
+  <section id="stage">
+    <h2>Mon stage de 1<sup>re</sup> année</h2>
+    <div class="box">
+      <dl>
+        <dt>Entreprise</dt><dd>CTA LOGISTICS, transport routier de marchandises</dd>
+        <dt>Lieu</dt><dd>Rosny-sous-Bois</dd>
+        <dt>Durée</dt><dd>5 semaines, du 1<sup>er</sup> juin au 3 juillet 2026</dd>
+        <dt>Tuteur</dt><dd>M. Farès Ben Kadhi, Directeur Général</dd>
+      </dl>
+      <p>L'entreprise est récente et n'a pas de service informatique interne : l'infrastructure est gérée par un prestataire extérieur. Elle était encore en développement sur sa présence numérique, donc mes missions ont mélangé communication et informatique.</p>
+    </div>
+
+    <h3 style="margin-top:28px">Missions réalisées</h3>
+    <div class="grid">
+      <div class="box"><h3>Réseaux sociaux</h3><p>Création des comptes professionnels de l'entreprise sur LinkedIn, Instagram et X (Twitter).</p></div>
+      <div class="box"><h3>Logo</h3><p>Création du logo de l'entreprise de A à Z avec Canva.</p></div>
+      <div class="box"><h3>Publications</h3><p>Création des visuels et publication régulière sur Instagram et LinkedIn.</p></div>
+      <div class="box"><h3>Contacts professionnels</h3><p>Recherche des entreprises partenaires sur LinkedIn, abonnements et création de nouveaux contacts.</p></div>
+      <div class="box"><h3>Site web vitrine</h3><p>Participation à la création du site de l'entreprise avec mes compétences acquises en cours.</p></div>
+      <div class="box"><h3>Windows sur 10 ordinateurs</h3><p>Réinitialisation et installation de Windows sur 10 nouveaux postes.</p></div>
+    </div>
+
+    <h3 style="margin-top:28px">Mission détaillée : installer Windows sur 10 ordinateurs</h3>
+    <div class="box">
+      <p style="margin-top:0">L'entreprise avait reçu dix nouveaux ordinateurs à préparer avant leur utilisation par les salariés. Nous avons utilisé une clé USB contenant les fichiers d'installation de Windows.</p>
+      <ol>
+        <li>Réinitialiser l'ordinateur.</li>
+        <li>Brancher la clé USB et redémarrer.</li>
+        <li>Accéder au mode boot pour choisir le périphérique de démarrage.</li>
+        <li>Sélectionner la clé USB pour lancer le programme d'installation.</li>
+        <li>Suivre les étapes de l'assistant d'installation.</li>
+        <li>Répéter la procédure sur chacun des 10 postes.</li>
+      </ol>
+      <p style="margin-bottom:0"><strong>Résultat :</strong> les dix ordinateurs étaient prêts à être utilisés. C'est la mission que j'ai trouvée la plus intéressante, car elle était la plus proche de ma formation en BTS SIO.</p>
+    </div>
+
+    <h3 style="margin-top:28px">Ce que j'ai appris</h3>
+    <div class="box">
+      <ul style="margin:0;padding-left:20px">
+        <li>Communication numérique et utilisation de Canva.</li>
+        <li>Mise en pratique de mes cours sur la création d'un site web.</li>
+        <li>Installation d'un système d'exploitation et utilisation d'une clé USB bootable.</li>
+        <li>Découverte du fonctionnement d'une entreprise et de son système d'information (baie de brassage, commutateurs, pare-feu, routeur).</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="competences">
+    <h2>Compétences</h2>
+    <ul class="tags">
+      <li>Installation de Windows</li>
+      <li>Clé USB bootable</li>
+      <li>Notions de réseau</li>
+      <li>Création de site web</li>
+      <li>Canva</li>
+      <li>Réseaux sociaux</li>
+      <li>Communication numérique</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>© 2026 Tigane Soufaché – Portfolio BTS SIO</footer>
+
+</body>
+</html>
